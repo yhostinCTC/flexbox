@@ -1,0 +1,27 @@
+.form_responsivo{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    background-color: #ED917D;
+    padding: 15px;
+}
+
+.form_title{
+    flex: 1 0 100%;
+}
+
+.form_inputs, #mensaje_textarea{
+    padding: 8px 16px;
+    border: 1px solid #CCC;
+    margin: 0px 8px 16px 0px;
+}
+
+.form_inputs{
+    flex: 1 0 45%;
+    width: 45%;
+}
+
+#mensaje_textarea{
+    flex: 1 0 90%;
+    width: 90%;
+}
